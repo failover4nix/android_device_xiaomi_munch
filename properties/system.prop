@@ -81,6 +81,9 @@ persist.log.tag.ContrastColorUtil=S
 persist.log.tag.OpenGLRenderer=S
 persist.log.tag.ultrasound_extn=S
 
+# Feature flags
+persist.sys.fflag.override.settings_enable_monitor_phantom_procs=false
+
 # Zygote
 persist.device_config.runtime_native.usap_pool_enabled=true
 
