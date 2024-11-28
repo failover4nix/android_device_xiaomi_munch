@@ -36,6 +36,11 @@
     <uses-sdk
         android:minSdkVersion="33"
         android:targetSdkVersion="35"/>
+    
+    <!-- Permissions Whitelist -->
+    <uses-permission android:name="android.permission.WRITE_SECURE_SETTINGS"/>
+    <uses-permission android:name="android.permission.INTERACT_ACROSS_USERS_FULL" />
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
 
     <application
         android:icon="@mipmap/ic_launcher"
