@@ -107,9 +107,6 @@ TARGET_KERNEL_ADDITIONAL_FLAGS += HOSTCFLAGS="-fuse-ld=lld -Wno-unused-command-l
 # HWUI
 HWUI_COMPILE_FOR_PERF := true
 
-# Media
-TARGET_USES_ION := true
-
 # Miui Camera
 TARGET_INCLUDES_MIUI_CAMERA := true
 
