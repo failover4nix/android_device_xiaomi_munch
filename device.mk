@@ -406,7 +406,7 @@ PRODUCT_PACKAGES += \
     android.hardware.sensors@1.0-service
 
 # Shipping API level
-PRODUCT_SHIPPING_API_LEVEL := 31
+PRODUCT_SHIPPING_API_LEVEL := 30
 
 # Reduce system server verbosity
 PRODUCT_SYSTEM_SERVER_DEBUG_INFO := false
