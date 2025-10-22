@@ -9,7 +9,7 @@ if [ ! -d "$CLANG_DIR" ]; then
   # If the directory is not found, print a message to the user
   echo "Clang directory not found. Cloning..."
   mkdir -p "$CLANG_DIR"
-  wget -qO- "https://android.googlesource.com/platform/prebuilts/clang/host/linux-x86/+archive/47e1fad3c1d7c647b49597e0ea85c5d8e43a978f/clang-r574158.tar.gz" | tar -xzf - -C "$CLANG_DIR"
+  wget -qO- "https://android.googlesource.com/platform/prebuilts/clang/host/linux-x86/+archive/508ea7dd0d8f681904d0422e98af9613aaabf180/clang-r574158.tar.gz" | tar -xzf - -C "$CLANG_DIR"
   
   # Print a success message
   echo "Clang has been downloaded and extracted successfully."
