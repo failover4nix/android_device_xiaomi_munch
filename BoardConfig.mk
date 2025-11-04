@@ -110,9 +110,6 @@ HWUI_COMPILE_FOR_PERF := true
 # Media
 TARGET_USES_ION := true
 
-# Miui Camera
-TARGET_INCLUDES_MIUI_CAMERA := true
-
 # OTA assert
 TARGET_OTA_ASSERT_DEVICE := munch,munch_global,munch_in
 
