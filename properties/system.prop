@@ -33,6 +33,9 @@ debug.gralloc.gfx_ubwc_disable=0
 debug.sf.enable_hwc_vds=1
 persist.vendor.color.matrix=2
 
+# Perf-ScrollOptimizer
+persist.sys.perf.scroll_opt = true
+
 # DPM
 persist.vendor.dpm.feature=1
 
