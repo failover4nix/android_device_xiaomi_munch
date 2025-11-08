@@ -352,6 +352,8 @@ ro.config.vc_call_vol_steps=11
 wifi.aware.interface=wifi-aware0
 
 # Camera
+persist.vendor.camera.logLevel=0
+persist.vendor.camera.sensor=0
 vendor.display.enable_camera_smooth=1
 
 # Zygote
