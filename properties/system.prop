@@ -77,3 +77,26 @@ persist.sys.fflag.override.settings_enable_monitor_phantom_procs=false
 
 # Zygote
 persist.device_config.runtime_native.usap_pool_enabled=true
+
+# QTI Mem Optimisation
+persist.vendor.sys.memplus.enable=false
+ro.vendor.qti.sys.fw.bg_apps_limit=30
+ro.vendor.qti.sys.fw.bservice_limit=60
+
+# system props for the MM modules
+media.stagefright.enable-player=true
+media.stagefright.enable-http=true
+media.stagefright.enable-aac=true
+media.stagefright.enable-qcp=true
+media.stagefright.enable-scan=true
+mmp.enable.3g2=true
+media.aac_51_output_enabled=true
+mm.enable.smoothstreaming=true
+
+#13631487 is decimal sum of supported codecs in AAL
+#codecs:(PARSER_)AAC AC3 AMR_NB AMR_WB ASF AVI DTS FLV 3GP 3G2 MKV MP2PS MP2TS MP3 OGG QCP WAV FLAC AIFF APE DSD
+mm.enable.qcom_parser=13631487
+persist.mm.enable.prefetch=true
+# Additional buffers shared between Camera and Video
+vidc.enc.dcvs.extra-buff-count=2
+vidc.enc.disable.pq=1
