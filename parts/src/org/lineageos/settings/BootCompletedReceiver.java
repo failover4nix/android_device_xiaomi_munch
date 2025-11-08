@@ -23,6 +23,7 @@ import android.content.Intent;
 import android.content.IntentFilter;
 import android.util.Log;
 
+import org.lineageos.settings.doze.PocketService;
 import org.lineageos.settings.dirac.DiracUtils;
 import org.lineageos.settings.thermal.ThermalUtils;
 import org.lineageos.settings.refreshrate.RefreshUtils;
@@ -45,5 +46,8 @@ public class BootCompletedReceiver extends BroadcastReceiver {
         ThermalUtils.startService(context);
         RefreshUtils.startService(context);
         TouchSamplingUtils.restoreSamplingValue(context);
+
+        // Pocket
+        PocketService.startService(context);
     }
 }
