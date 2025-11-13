@@ -360,6 +360,7 @@ wifi.aware.interface=wifi-aware0
 persist.vendor.camera.logLevel=0
 persist.vendor.camera.sensor=0
 vendor.display.enable_camera_smooth=1
+persist.vendor.camera.logInfoMask=false
 
 # Zygote
 zygote.critical_window.minute=10
