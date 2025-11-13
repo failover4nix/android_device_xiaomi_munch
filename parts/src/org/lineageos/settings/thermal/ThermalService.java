@@ -57,6 +57,7 @@ public class ThermalService extends Service {
                     setThermalProfile();
                     break;
             }
+            mThermalUtils.resetTouchModes();
         }
     };
 
@@ -106,6 +107,14 @@ public class ThermalService extends Service {
         } else {
             mThermalUtils.setDefaultThermalProfile();
             mThermalUtils.resetTouchModes();
+        }
+    }
+
+    private void setThermalProfile() {
+        if (mScreenOn) {
+            mThermalUtils.setThermalProfile(mCurrentApp);
+        } else {
+            mThermalUtils.setDefaultThermalProfile();
         }
     }
 
